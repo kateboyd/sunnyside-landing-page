@@ -1,7 +1,7 @@
 const BigButton = ({text}) => {
     return (
         <>
-            <button class="bg-teal-600 text-teal-800 m-1">{text}</button>
+            <button className="bg-teal-600 text-teal-800 m-1">{text}</button>
         </>
     )
 

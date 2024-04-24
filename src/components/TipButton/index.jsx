@@ -2,7 +2,7 @@ const TipButton = ({text}) => {
 
     return (
         <>
-            <button class="bg-teal-800 text-white m-1">{text}</button>
+            <button className="bg-teal-800 text-white m-1">{text}</button>
         </>
     )
 
