@@ -1,0 +1,18 @@
+.graphic-design-section {
+  position: relative;
+
+}
+
+.design-image {
+  width: 100%;
+}
+
+.graphic-copy {
+  position: absolute;
+  top: 75%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: black; 
+  text-align: center; 
+  background-color: none; 
+}

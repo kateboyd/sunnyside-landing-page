@@ -1,0 +1,19 @@
+.transform-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.transform-image {
+  width: 50%;
+  height: 100%;
+}
+
+.transform-text {
+  width: 50%;
+  padding: 0 2rem;
+  background-color: white;
+  height: 100%;
+  color: black;
+  align-content: center;
+}

@@ -1,0 +1,28 @@
+.desktop-header-section {
+  width: 100%;
+}
+
+.header-image {
+  position: relative;
+  width: 100%;
+}
+
+.nav-bar {
+  position: absolute;
+  width: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.headline {
+  position: absolute;
+  top: 35%;
+  align-content: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
