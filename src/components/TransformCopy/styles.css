@@ -1,0 +1,36 @@
+.section-copy {
+  padding: 6.5rem;
+  text-align: left;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 2.5rem;
+  color: hsl(232, 10%, 55%);
+  font-weight: 400;
+}
+
+h3 {
+    position: relative; /* Ensure the pseudo-element is positioned relative to the h3 */
+    font-size: 1rem;
+    margin-bottom: 1rem; /* Adjust as needed */
+  }
+  
+  h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3px; /* Adjust to position the underline slightly behind the text */
+    height: 5px; /* Adjust thickness */
+    background-color: hsl(51, 100%, 49%); /* Adjust color */
+    opacity: 50%; /* Adjust opacity */
+    z-index: 1; /* Ensure the underline is behind the text */
+    transform: scaleX(1.1); /* Make the underline wider than the text */
+    transform-origin: left center; /* Ensure the scaling starts from the left */
+  }
