@@ -4,14 +4,17 @@ import DesktopHeader from '../DesktopHeader';
 import DesktopStandOut from '../DesktopStandOut';
 import ImageSection from '../ImageSection';
 import Services from '../Services';
+import './styles.css';
+import DesktopTestimonials from '../DesktopTestimonials';
 
 const DesktopLayout = () => {
   return (
-    <div>
+    <div className="desktop-container">
         <DesktopHeader />
         <DesktopTransform />
         <DesktopStandOut />
-        <Services />  
+        <Services /> 
+        <DesktopTestimonials /> 
         <ImageSection />
     </div>
   );
