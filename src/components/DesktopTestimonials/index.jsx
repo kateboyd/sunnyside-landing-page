@@ -5,7 +5,7 @@ import './styles.css'; // Assuming you have some styles for the component
 const DesktopTestimonials = () => {
   return (
     <div className="testimonials-section">
-      <h2>Client testimonials</h2>
+      <h2 className='testimonials-header'>CLIENT TESTIMONIALS</h2>
       <div className="testimonials-container">
         {testimonials.map((testimonial, index) => (
           <div key={index} className="testimonial">

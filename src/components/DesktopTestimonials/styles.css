@@ -1,23 +1,31 @@
 .testimonials-section {
   text-align: center;
   padding: 2rem;
-  border: 10px solid #e0e0e0;
 }
 
 .testimonials-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  align-items: center ;
+  gap: 3rem;
+}
+
+.testimonials-header {
+  padding-top: 1rem;
+  color: gray;
+  font-size: 1rem;
+  font-weight: normal;
+  letter-spacing: 1px;
 }
 
 .testimonial {
   max-width: 300px;
-  text-align: left;
+  text-align: center;
 }
 
 .testimonial-image {
-  width: 50%;
+  width: 30%;
   height: auto;
   border-radius: 50%;
   margin:auto;
@@ -26,10 +34,12 @@
 .testimonial-text {
   font-style: italic;
   margin: 1rem 0;
+  font-size: small;
 }
 
 .testimonial-name {
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .testimonial-title {
